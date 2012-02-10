@@ -23,6 +23,11 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
+- (IBAction)buttonPressed:(id)sender {
+    NSError *error = nil;
+    NSURL *url = [NSURL URLWithString:@"http://dev.spicerackapps.com/development/mw3/push.php"];
+    [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:&error];
+}
 
 - (void)viewDidUnload
 {
