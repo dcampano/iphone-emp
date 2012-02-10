@@ -22,7 +22,7 @@
 {
     // Override point for customization after application launch.
     [[UIApplication sharedApplication] setIdleTimerDisabled: YES];
-    [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationNone];
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleBlackOpaque];
     return YES;
 }
 							
