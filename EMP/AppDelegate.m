@@ -23,6 +23,7 @@
     // Override point for customization after application launch.
     [[UIApplication sharedApplication] setIdleTimerDisabled: YES];
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleBlackOpaque];
+    [[UIScreen mainScreen] setBrightness:0.3f];
     return YES;
 }
 							
